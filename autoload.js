@@ -1,4 +1,4 @@
-const live2d_path = "https://xjystudio.coding.net/p/blog/d/flies/git/raw/master/js/";
+const live2d_path = "https://cdn.jsdelivr.net/gh/Xjystudio/js@master/";
 function loadExternalResource(url, type) {
 	return new Promise((resolve, reject) => {
 		let tag;
@@ -26,7 +26,7 @@ if (screen.width >= 600) {
 	]).then(() => {
 		initWidget({
 			waifuPath: live2d_path + "waifu-tips.json",
-			cdnPath: "https://cdn.xiejiayu.ml/gh/fghrsh/live2d_api/"
+			cdnPath: "https://cdn.jsdelivr.net/gh/fghrsh/live2d_api/"
 		});
 	});
 }
