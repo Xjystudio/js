@@ -1,4 +1,4 @@
-const live2d_path = "https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/";
+const live2d_path = "https://cdn.jsdelivr.net/gh/xjystudio/js@latest/";
 
 function loadExternalResource(url, type) {
 	return new Promise((resolve, reject) => {
