@@ -1,4 +1,4 @@
-const live2d_path = "https://fastly.jsdelivr.net/gh/Xjystudio/js@master/";
+const live2d_path = "https://cdn.jsdelivr.us/gh/Xjystudio/js@master/";
 
 function loadExternalResource(url, type) {
 	return new Promise((resolve, reject) => {
@@ -28,7 +28,7 @@ if (screen.width >= 600) {
 	]).then(() => {
 		initWidget({
 			waifuPath: live2d_path + "waifu-tips.json",
-			cdnPath: "https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/"
+			cdnPath: "https://cdn.jsdelivr.us/gh/fghrsh/live2d_api/"
 		});
 	});
 }
