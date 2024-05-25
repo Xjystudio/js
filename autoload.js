@@ -1,4 +1,4 @@
-const live2d_path = "https://cdn.jsdelivr.net/gh/Xjystudio/js@master/";
+const live2d_path = "https://xjystudio.github.io/js/";
 
 function loadExternalResource(url, type) {
 	return new Promise((resolve, reject) => {
