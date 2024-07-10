@@ -1,4 +1,4 @@
-const live2d_path = "https://jsd.onmicrosoft.cn/npm/@xiejiayu/cdn/";
+const live2d_path = "https://js.xiejiayu.com/";  
 
 function loadExternalResource(url, type) {
 	return new Promise((resolve, reject) => {
@@ -28,7 +28,7 @@ if (screen.width >= 600) {
 	]).then(() => {
 		initWidget({
 			waifuPath: live2d_path + "waifu-tips.json",
-			cdnPath: "https://jsd.onmicrosoft.cn/gh/fghrsh/live2d_api/"
+			cdnPath: "https://liv2d.xiejiayu.com"
 		});
 	});
 }
