@@ -28,7 +28,7 @@ if (screen.width >= 600) {
 	]).then(() => {
 		initWidget({
 			waifuPath: live2d_path + "waifu-tips.json",
-			cdnPath: "https://liv2d.xiejiayu.com"
+			cdnPath: "https://live2d.xiejiayu.com"   
 		});
 	});
 }
